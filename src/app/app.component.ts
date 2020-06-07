@@ -25,7 +25,7 @@ export class AppComponent {
           // TODO: loop over satellites
           for (let i: number = 0; i < fetchedSatellites.length; i++){
            // TODO: create a Satellite object using new Satellite(fetchedSatellites[i].name, fetchedSatellites[i].type, fetchedSatellites[i].launchDate, fetchedSatellites[i].orbitType, fetchedSatellites[i].operational);
-            satellite = new Satellite(
+              satellite = new Satellite(
                fetchedSatellites[i]["name"],
                fetchedSatellites[i]["type"],
                fetchedSatellites[i]["launchDate"],
