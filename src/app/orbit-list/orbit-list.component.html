@@ -17,5 +17,12 @@
       <td>{{satellite.orbitType}}</td>
       <td>{{satellite.launchDate}}</td>
    </tr>
+   
 </table>
+<div class = 'search-form'> 
+   
+   <input  name = 'searchTerm' type = 'text' (keyup) = 'search(searchTerm.value)'>
+   <button (click) = "search(searchTerm.value)"> Search </button>
+   
+</div>
 
